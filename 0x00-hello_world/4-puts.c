@@ -1,13 +1,15 @@
-#include <stdio.h>
+#include <string.h>
 /**
- * main - Entry point
+ * main - Main function of the project
  *
- * Description: A c program that prints with c function
  *
- * Return: Always 0 (success)
+ * Return: return 0 all the time
  */
 int main(void)
 {
-	puts("Programming is like building a multilingual puzzle\n");
-	Return (0);
+	char show[52];
+
+	strcpy(show, "\"Programming is like building a multilingual puzzle");
+	puts(show);
+	return (0);
 }
