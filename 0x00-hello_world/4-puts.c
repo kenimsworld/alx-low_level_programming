@@ -2,9 +2,9 @@
 /**
  * main - Entry
  *
- * description: A c program that prints with puts function
+ * Description: A c program that prints with puts function
  *
- * return: Always 0
+ * return: Always 0 (success)
  */
 int main(void)
 {
