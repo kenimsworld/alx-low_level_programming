@@ -1,8 +1,11 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * This is the preferred style for multi
+ * comments in C source code.
+ * Please use it consistently.
  *
- * Return: Always 0 (Success)
+ * Description: A column of asterisks
+ * with beginning and ending almost-blank
  */
 int main(void)
 {
