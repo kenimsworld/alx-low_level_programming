@@ -1,15 +1,12 @@
 #include <stdio.h>
+
 /**
- * This is the preferred style for multi
- * comments in C source code.
- * Please use it consistently.
+ * main - Entry point
  *
- * Description: A column of asterisks
- * with beginning and ending almost-blank
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	printf("with proper grammer, but the outcome is
-a piece of art,\n");
-	return (0);
+	printf("with proper grammer, but the outcome is a piece of art,\n");
+	return  (0);
 }
