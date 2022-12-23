@@ -5,15 +5,15 @@
  * print_buffer - prints a buffer
  * @b: buffer to print
  * @size: bytes of buffer to print
- * Return: void
  */
+
 void print_buffer(char *b, int size)
 {
 	int byte, index;
 
 	for (byte = 0; byte < size; byte += 10)
 	{
-		printf("%08x:", byte);
+		printf("%08x: ", byte);
 
 		for (index = 0; index < 10; index++)
 		{
@@ -33,7 +33,7 @@ void print_buffer(char *b, int size)
 				break;
 
 			else if (*(b + index + byte) >= 31 &&
-				 *(b + index + byte) <= 126)
+				       	*(b + index + byte) <= 126)
 				printf("%c", *(b + index + byte));
 
 			else
